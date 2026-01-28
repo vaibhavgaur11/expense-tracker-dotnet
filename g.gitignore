@@ -1,0 +1,74 @@
+## =========================
+## .NET / ASP.NET Core
+## =========================
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# ASP.NET Core
+appsettings.Development.json
+appsettings.Local.json
+
+# Logs
+*.log
+logs/
+
+# Test results
+TestResults/
+*.trx
+
+# NuGet
+.nuget/
+packages/
+*.nupkg
+*.snupkg
+
+# Publish output
+publish/
+wwwroot/lib/
+
+# OS generated
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment variables
+.env
+.env.*
+
+# Docker
+docker-compose.override.yml
+
+# Secrets
+secrets.json
+*.pfx
+*.key
+*.pem
+
+# Coverage
+coverage/
+coverage.xml
+*.opencover.xml
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
